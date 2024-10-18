@@ -1,12 +1,16 @@
 ﻿namespace SampleModels
 {
-    public class Movie
+    public class MovieModel
     {
-        public int Id { get; set; }
-        public string Title { get; set; }
-        public float Rating { get; set; }
-        public int Year_Released { get; set; }
-        public string Director {  get; set; }
+        public class Movie
+        {
+            public int Id { get; set; }
+            public required string Title { get; set; }
+            public double Rating { get; set; }
+            public int YearReleased { get; set; }
+            public required string Director { get; set; }
 
+        }
     }
+    
 }
