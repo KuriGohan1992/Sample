@@ -7,10 +7,5 @@ namespace Sample.Controllers
     [ApiController]
     public class MovieController : ControllerBase
     {
-        [HttpGet]
-        public IActionResult GetAllMovies()
-        {
-
-        }
     }
 }
